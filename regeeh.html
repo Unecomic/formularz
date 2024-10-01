@@ -1,0 +1,50 @@
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>FORMULARZ</title>
+</head>
+<style>
+ body{
+ background-color: beige;  
+ text-align: center; 
+ }
+ hr{
+    color: rgb(132, 204, 50);
+ }
+ h2{
+    text-align: center;
+ }
+ #Kraj {
+    width: 182px;
+ }
+ #przycisk {
+    width: 60px;
+    height: 20px;
+ }
+</style>
+<body>
+    <h2>Formularz</h2>
+    <h1>Przykładowy</h1>
+ <hr>
+ <form>
+    <label for="name">Imie</label><br>
+    <input type="text" name="name" id="name"><br>
+    <label for="text">Nazwisko</label><br>
+      <input type="text" name="text" id="Nazwisko"><br>
+    <label for="text">Adres</label><br>
+      <input type="text" name="text" id="Adres"><br>
+      <label for="country">Kraj</label><br>
+        <select name="select" id="Kraj"><br>
+        <option value="">Wybierz kraj</option><br>
+        <option value="PL">Polska</option><br>
+        </select><br>
+    <label for="tel">Numer tel.</label><br>
+      <input type="tel" pattern="123456789" name="tel" id="Numer tel."><br>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="Email"><br>
+    <h1></h1>
+    <button type="submit" value="Wyślij" id="przycisk"></button><br>
+ </form>   
+<hr>
+</body>
+</html>
